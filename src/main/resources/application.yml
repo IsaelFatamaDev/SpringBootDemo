@@ -8,4 +8,9 @@ spring:
     mongodb:
       uri: mongodb+srv://isaelfatamadev:sistemasVG_general@sistemasvg.snqck.mongodb.net/?retryWrites=true&w=majority
       database: EjemploDB
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
 
