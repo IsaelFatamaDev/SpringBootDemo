@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: DemoPostgresql
+  r2dbc:
+    initialization-mode: always
+    url: r2dbc:postgresql://postgres.nrgnxkvxacrnvljmkiat:pruebasSpringboot@aws-0-us-west-1.pooler.supabase.com:5432/postgres
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          r2dbc: DEBUG
+server:
+  port: 8085
